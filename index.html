@@ -1,16 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Random Pass Generator</title>
-</head>
-<body>
-    <div class="title">
-        <p>Hello World </p>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>
+        Generate a <br />
+        <span>Random Password</span>
+      </h1>
+
+      <div class="display">
+        <input type="text" id="password" placeholder="Password" / readonly>
+        <img src="./assets/images/copy.png" />
+      </div>
+      <div class="btn">
+        <button onclick="">
+          <img src="./assets/images/generate.png" />
+          <p>Generate Password</p>
+        </button>
+      </div>
     </div>
-    <div class="inputbox">
-        <p>Password</p>
-    </div>
-</body>
+  </body>
 </html>
