@@ -31,5 +31,3 @@ function copyPass(){
 }
 
 //Show alertBox
-
-window.alert(copyPass());
